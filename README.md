@@ -43,7 +43,7 @@
     3)Requests: Install Requests to handle requests from the client to the server.
 # Running the Application
   To run the API, execute the following command:
-    uvicorn model:app --reload
+    uvicorn server:app --reload
 # Architecture
 *The project follows a client-server architecture:
 
