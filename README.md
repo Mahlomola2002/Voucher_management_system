@@ -45,7 +45,7 @@
   To run the API, execute the following command:
     uvicorn model:app --reload
 # Architecture
-The project follows a client-server architecture:
+*The project follows a client-server architecture:
 
   *Server: Handles database operations and routing using FastAPI.
   *Client: Interacts with the server through HTTP requests using the Requests library.
